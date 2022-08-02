@@ -1,0 +1,307 @@
+/* set logo + header at one line */
+.logo_header {
+    display: flex;
+}
+
+/* set header: flex */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #00ffff;
+    justify-content: space-between;
+}
+
+/* li inline */
+.flex-container > li {
+    display: inline;
+    font-weight: 700;
+}
+
+/* hover when have mouse event */
+.flex:hover {
+    background-color: #00b9b9;
+}
+
+/* active when have mouse event - press*/
+.flex:active {
+    background-color: #008888;
+}
+
+/* set property for flex item */
+.flex {
+    background-color: #00ffff;
+    color: black;
+    text-align: center;
+    font-style: bold;
+    list-style-type: none;
+    padding: 15px;
+    /* border: 1px solid rgb(170, 15, 15); */
+    margin: 2px;
+}
+
+/* banner imgage */
+.banner {
+    width: 100%;
+}
+
+/* Content property*/
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.container > div {
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 30%;
+}
+
+/* non cu nhan */
+.hat, .book, .book2 {
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+}
+
+.content > p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.h_hat {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h_book {
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h_book2 {
+    color: green;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-sachthepcap {
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* book system container */
+.container-book-system {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* set img and title center */
+.book-system {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+/* set uppercase text */
+.book-system > h2{
+    text-transform: uppercase;
+    color: blue;
+}
+
+/* set width and height of image */
+.img-mamnon, .img-tieuhoc, .img-thcs, .img-thpt {
+    width: 300px;
+    height: 240px;
+}
+
+/* set hover book-system */
+.book-system:hover {
+    color: black;
+    background-color: #00b9b9;
+}
+/* set active book-system */
+.book-system:active {
+    background-color: #008888;
+}
+
+/* Sachmem content 2 */
+.container-sachmem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    
+}
+.container-sachmem > .content2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.img-sachmem {
+    width: 300px;
+}
+
+.h1-sachmem {
+    color: blue;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.h2-sachmem {
+    margin-top: 10px;
+}
+
+
+/* set btn */
+.btn {
+    display: flex;
+    justify-content: left;
+}
+.btn1, .btn2 {
+    background-color: rgb(80, 171, 245);
+    color: white;
+    padding: 10px;
+}
+.btn1:hover, .btn2:hover {
+    background-color: rgb(67, 67, 247);
+}
+
+.h1-tintucsukien {
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* tintuc sukien */
+.tintuc-sukien {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* tintuc-sukien-trai */
+.tintuc-sukien-trai {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+
+/* tintuc-sukien-phai */
+.tintuc-sukien-phai {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+
+/* tintuc 1 */
+.tintuc1-container, .tintuc2-container, .tintuc3-container, .tintuc4-container, .tintuc5-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tintuc1, .tintuc2, .tintuc3, .tintuc4, .tintuc5 {
+    margin-left: 20px;
+}
+
+.img-tintuc1, .img-tintuc2 {
+    width: 200px;
+    height: 150px;
+}
+
+.img-tintuc3, .img-tintuc4, .img-tintuc5 {
+    width: 100px;
+    height: 75px;
+}
+
+.h3-tintuc-sukien {
+    text-transform: uppercase;
+}
+
+/* H1 daylinhhoat-hocchudong */
+.daylinhhoat-hocchudong {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+/* Nhung con so an tuong */
+.nhungconsoantuong {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    color: blue;
+}
+
+.container-so-an-tuong {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: row;
+}
+
+.soantuong1, .soantuong2,.soantuong3,.soantuong4 {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color: #00b9b9;
+    margin: 5px;
+}
+
+
+
+
+/* footer */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #00ffff;
+    margin-top: 100px;
+}
+
+.footer-tren {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-duoi {
+    text-align: center;
+}
+
